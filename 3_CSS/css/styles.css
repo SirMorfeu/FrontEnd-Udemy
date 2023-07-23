@@ -10,3 +10,37 @@ h3 {
 p {
     color: blueviolet;
 }
+
+/* classes */
+.paragraph {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+/* ids */
+
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+/* desafio css */
+
+.desafio {
+    width: 300px;
+    height: 150px;
+    padding: 5px 5px;
+    border: 2px solid #06397c;
+    border-radius: 3px;
+    margin: auto;
+    outline: 3px solid #000;
+}
+
+#h2-unico {
+    padding: 6px;
+    background-color: #666;
+    height: 50%;
+    text-align: center;
+}
