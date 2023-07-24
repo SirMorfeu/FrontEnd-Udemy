@@ -45,7 +45,40 @@ h2 {
     color: burlywood;
 }
 
+/* hex */
+.hex {
+    color: #55a398;
+}
 
+.hex-2 {
+    color: #a795a8;
+}
+
+/* aprofundando em hex */
+.simple-hex {
+    color: #aa55ff;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+} 
+
+/* rgb */
+
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(199, 21, 47);
+}
+
+/* rgba */
+
+.rgba {
+    color: rgba(255, 0, 0, 0.5);
+}
+ 
 /* desafio css */
 
 .desafio {
