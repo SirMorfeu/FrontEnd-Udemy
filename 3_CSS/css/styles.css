@@ -27,9 +27,9 @@ h3 {
 }
 
 /* ordem das regras*/
-h2 {
+/* h2 {
     border-bottom: 2px solid red;
-}
+} */
 
 .titulo {
     border-bottom: 3px solid blue;
@@ -274,4 +274,130 @@ h2 {
     border-radius: 5px;
     width: 100px;
     height: 100px;
+}
+
+/* text alignment */
+
+.text-alignment {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+}
+
+/* text decoration */
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.without-decoration {
+    text-decoration: none;
+    color: red;
+}
+
+/* upper e lower */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+/* text spacing */
+
+.text-spacing {
+    letter-spacing: 5px;
+}
+
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif{
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* text style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* font weight */
+.thin, .bold, .bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 300;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* font size */
+
+.small{
+    font-size: 4px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/* Display */
+
+.inline-box {
+    background-color: #4f8;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    height: 10px;
+    width: 10px;
+}
+
+.block {
+    background-color: #00eaff;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    height: 10px;
+    width: 10px;
+}
+
+/* invisible */
+
+.invisible {
+    display: none;
 }
