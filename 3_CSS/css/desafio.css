@@ -1,0 +1,17 @@
+#challenge {
+    padding: 10px 5px;
+    border: 3px solid blue;
+    margin: 300px 5px 200px 5px;
+    background-color: #000;
+    border-radius: 15px;
+    width: 500px;
+    height: 100px;
+    box-sizing: border-box;
+    outline: 5px solid turquoise;
+}
+
+.challenge-h2 {
+    color: #fff;
+    background-color: #222;
+    border: none;
+}
