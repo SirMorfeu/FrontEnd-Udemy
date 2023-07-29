@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
-    <link ref="stylesheet" src="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- 1 - Primeiro Formulário -->
+    <!-- 2 - Atributos Formulário -->
     <h2>Formulário HTML</h2>
-    <form>
+    <form action="register.php" method="GET">
         <div>
-            <label>Nome: </label>
+            <label>Nome:</label>
             <input type="text"/>
         </div>
+    <!-- 3 - atributo name -->
+        <div>
+        <!-- 4 - atributo for -->
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+    <!-- 6 - select -->
+        <div>
+            <label for="job">Selecione sua profissão:</label>
+            <select name="job">
+                <option value="progamador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="devops">DevOps</option>
+            </select>
+        </div>
+    <!-- 7 -->
+    <!-- 5 - envio de form -->
+        <input type="submit" value="Enviar"/>
     </form>
 </body>
 </html>
