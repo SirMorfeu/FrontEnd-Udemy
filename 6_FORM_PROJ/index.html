@@ -4,11 +4,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venda seu carro fácil</title>
+    <title>Desapegue de seu console</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <input type="text" placeholder="Seu anuncio" minlength="1" maxlength="">
 </body>
-
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre para vender seu console antigo mais fácil</h3>
+            
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="form-header">
+            <p>Formulário</p>
+        </div>
+        <div class="form-body">
+            <form>
+                <h1 class="form-title">Venda fácil seu console antigo</h1>
+                <p>Descreva as características, modelo e condições atuais.
+                </p>
+                <div class="box-input">
+                    <label for="title">Título do anúncio<span class="required-field">*</span></label>
+                    <input type="text"
+                    name="title"
+                    id="title"
+                    class="block"
+                    placeholder="Um título para anunciar seu console usado"
+                    minlength="1"
+                    maxlength="30"
+                    required>
+                </div>
+                <div class="box-input">
+                    <label for="price">Preço<span class="required-field">*</span></label>
+                    <input type="number"
+                    name="price"
+                    id="price"
+                    class="block"
+                    placeholder="Defina o preço de venda"
+                    required>
+                </div>
+                <div class="box-input">
+                    <label for="description">Descrição<span class="required-field">*</span></label>
+                    <textarea name="description" 
+                    id="description"
+                    class="block"
+                    placeholder="Aqui você coloca os detalhes do console, por exemplo: item de colecionador e afins."
+                    required
+                    ></textarea>
+                </div>
+                <div class="box-input">
+                    <label for="brand">Marca<span class="required-field">*</span></label>
+                    <input type="text"
+                    name="brand"
+                    id="brand"
+                    class="block"
+                    placeholder="Digite a marca do aparelho"
+                    required>
+                </div>
+                <div class="box-input">
+                    <label for="model">Modelo<span class="required-field">*</span></label>
+                    <input type="text"
+                    name="model"
+                    id="model"
+                    class="block"
+                    placeholder="Digite o modelo do aparelho"
+                    required>
+                </div>
+                <div class="box-input">
+                    <label for="how_much_used">Tempo de uso:<span class="required-field">*</span></label>
+                    <input type="text"
+                    name="how_much_used"
+                    id="how_much_used"
+                    class="block"
+                    placeholder="Digite por quanto tempo utilizou a aparelho:"
+                    required>
+                </div>
+                <div class="box-input">
+                    <label for="year_claimed">Quando o aparelho foi comprado:<span class="required-field">*</span></label>
+                    <input type="date"
+                    name="year_claimed"
+                    id="year_claimed"
+                    class="block"
+                    required>
+                </div>
+                <div class="box-input">
+                    <p>Estado do aparelho<span class="required-field">*</span></p>
+                    <input type="radio" id="used" name="nf">
+                    <label for="used">Usado</label>
+                    <input type="radio" id="semi_used" name="nf">
+                    <label for="semi_used">Semi usado</label>
+                    <input type="radio" id="new" name="nf">
+                    <label for="new">Novo</label>
+                </div>
+                <div class="box-input">
+                    <p>Tem nota fiscal? <span class="required-field">*</span></p>
+                    <input type="radio" id="sim" name="nf">
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="nao" name="nf">
+                    <label for="nao">Não</label>
+                </div>
+                <div class="optional-box">
+                    <p>Opcionais<p>
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox"
+                            id="original_box"
+                            name="optional[]"
+                            value="original_box"
+                            >
+                            <label for="original_box">Caixa  original</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"
+                            id="controle_original"
+                            name="optional[]"
+                            value="controle_original"
+                            >
+                            <label for="controle_original">Controles originais</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"
+                            id="original_cables"
+                            name="optional[]"
+                            value="original_cables"
+                            >
+                            <label for="original_cables">Cabos originais</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"
+                            id="manual_original"
+                            name="optional[]"
+                            value="manual_original"
+                            >
+                            <label for="manual_original">Manuais originais</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="optional-box">
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox"
+                            id="original_game"
+                            name="optional[]"
+                            value="original_game"
+                            >
+                            <label for="original_game">Contém jogo na caixa</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"
+                            id="sensor"
+                            name="optional[]"
+                            value="sensor"
+                            >
+                            <label for="sensor">Aparelho de detecção de movimento</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"
+                            id="sealed"
+                            name="optional[]"
+                            value="sealed"
+                            >
+                            <label for="sealed">Caixa selada</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"
+                            id="no_damage"
+                            name="optional[]"
+                            value="no_damage"
+                            >
+                            <label for="no_damage">Sem avarias</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-input">
+                    <p>Fotos do aparelho: <span class="required-field">*</span></p>
+                    <input type="file"
+                    multiple
+                    accept="image/png, image/jpg"
+                    id="images"
+                    name="images"
+                    required
+                    >
+                </div>
+                <input type="submit" name="Enviar" class="btn-submit">
+            </form>
+        </div>
+    </div>
 </html>
